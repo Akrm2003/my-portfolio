@@ -5,7 +5,7 @@ export const projects: Project[] = [
     title: 'Minishell',
     description: 'A simple shell implementation in C',
     category: '42',
-    link: 'https://github.com/akrm2003/minishell_save'
+    link: 'https://github.com/akrm2003/minishell'
   },
   {
     title: 'Cub3D',
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: 'Push_Swap',
     description: 'Sorting algorithm implementation',
     category: '42',
-    link: 'https://github.com/akrm2003/ssds'
+    link: 'https://github.com/akrm2003/push_swap'
   },
   {
     title: 'Talk to Your PDF Chatbot',
