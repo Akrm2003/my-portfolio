@@ -60,7 +60,7 @@ export const experiences: Experience[] = [
 
 export const achievements: Achievement[] = [
   {
-    title: '9th Place - MOD 2nd Coding Competition',
+    title: 'Top 10 - MOD 2nd Coding Competition',
     description: 'Demonstrated strong problem-solving skills in competitive programming.'
   },
   {
@@ -68,7 +68,7 @@ export const achievements: Achievement[] = [
     description: 'Excelled in local coding competition among peers.'
   },
   {
-    title: '401st Place Globally - Clash of Code',
+    title: 'Top 5% Globally - Clash of Code',
     description: 'Achieved significant ranking in global programming competition.'
   }
 ];

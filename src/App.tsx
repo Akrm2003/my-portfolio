@@ -232,7 +232,7 @@ function App() {
             </a>
           </div>
           <a
-          href="/Akram-CV.pdf" // This should still work if the file is inside /public
+          href="/Akram-CV.pdf"
           download="Akram-CV.pdf"
           className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-3 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all transform hover:scale-105 shadow-md"
           >
