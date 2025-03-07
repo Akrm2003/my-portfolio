@@ -137,6 +137,7 @@ function App() {
       </Section>
 
       {/* Projects Section */}
+      {/* Projects Section */}
       <Section id="projects" title="Projects" icon={<Code className="w-6 h-6" />}>
         <div className="space-y-12">
           <div>
@@ -153,7 +154,16 @@ function App() {
                   title={project.title}
                   description={project.description}
                   className="border-t-4 border-purple-500"
-                />
+                >
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:underline block mt-2"
+                  >
+                    View on GitHub
+                  </a>
+                </Card>
               ))}
             </div>
           </div>
@@ -171,12 +181,22 @@ function App() {
                   title={project.title}
                   description={project.description}
                   className="border-t-4 border-blue-500"
-                />
+                >
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:underline block mt-2"
+                  >
+                    View on GitHub
+                  </a>
+                </Card>
               ))}
             </div>
           </div>
         </div>
       </Section>
+
 
       {/* Achievements Section */}
       <Section id="achievements" title="Achievements" icon={<Trophy className="w-6 h-6" />}>
@@ -232,8 +252,8 @@ function App() {
             </a>
           </div>
           <a
-          href="/Akram-CV.pdf"
-          download="Akram-CV.pdf"
+          href="/Akram_CV.pdf"
+          download="Akram_CV.pdf"
           className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-3 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all transform hover:scale-105 shadow-md"
           >
           <Download className="w-5 h-5" />
