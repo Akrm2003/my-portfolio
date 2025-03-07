@@ -32,7 +32,7 @@ function App() {
           <div className="mb-8 relative">
             <div className="absolute inset-0 bg-blue-500 rounded-full blur-2xl opacity-10 dark:opacity-20"></div>
             <img
-              src="/akram.jpg"
+              src="/akram.png"
               alt="Akram Sid Ahmed"
               className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg relative"
             />
