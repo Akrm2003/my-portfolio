@@ -137,7 +137,6 @@ function App() {
       </Section>
 
       {/* Projects Section */}
-      {/* Projects Section */}
       <Section id="projects" title="Projects" icon={<Code className="w-6 h-6" />}>
         <div className="space-y-12">
           <div>
@@ -149,21 +148,23 @@ function App() {
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.filter(project => project.category === '42').map(project => (
-                <Card
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  className="border-t-4 border-purple-500"
+                <a 
+                  key={project.title} 
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block"
                 >
-                  <a 
-                    href={project.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline block mt-2"
+                  <Card
+                    title={project.title}
+                    description={project.description}
+                    className="border-t-4 border-purple-500"
                   >
-                    View on GitHub
-                  </a>
-                </Card>
+                    <span className="text-blue-500 hover:underline block mt-2">
+                      View on GitHub
+                    </span>
+                  </Card>
+                </a>
               ))}
             </div>
           </div>
@@ -176,21 +177,23 @@ function App() {
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.filter(project => project.category === 'Personal').map(project => (
-                <Card
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  className="border-t-4 border-blue-500"
+                <a 
+                  key={project.title} 
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block"
                 >
-                  <a 
-                    href={project.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline block mt-2"
+                  <Card
+                    title={project.title}
+                    description={project.description}
+                    className="border-t-4 border-blue-500"
                   >
-                    View on GitHub
-                  </a>
-                </Card>
+                    <span className="text-blue-500 hover:underline block mt-2">
+                      View on GitHub
+                    </span>
+                  </Card>
+                </a>
               ))}
             </div>
           </div>
