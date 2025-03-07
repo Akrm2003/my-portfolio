@@ -67,7 +67,7 @@ function App() {
       <Section id="about" title="About Me" icon={<Brain className="w-6 h-6" />}>
         <div className="max-w-3xl mx-auto">
           <p className="text-lg leading-relaxed">
-            I'm Akram Sid Ahmed, a computer science student at both Khartoum University and 42 Abu Dhabi. 
+            I am Akram Sid Ahmed, a computer science student at both Khartoum University and 42 Abu Dhabi. 
             Passionate about technology, problem-solving, and AI. I constantly seek to expand my knowledge 
             and build impactful projects.
           </p>
