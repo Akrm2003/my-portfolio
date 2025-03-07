@@ -8,7 +8,7 @@ import { Theme } from './types';
 import { projects, skills, experiences, achievements } from './data';
 
 function App() {
-  const [theme, setTheme] = useState<Theme>('light');
+  const [theme, setTheme] = useState<Theme>('dark');
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -32,7 +32,7 @@ function App() {
           <div className="mb-8 relative">
             <div className="absolute inset-0 bg-blue-500 rounded-full blur-2xl opacity-10 dark:opacity-20"></div>
             <img
-              src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=300&h=300"
+              src="/akram.jpg"
               alt="Akram Sid Ahmed"
               className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg relative"
             />
@@ -209,7 +209,7 @@ function App() {
         <div className="flex flex-col items-center space-y-6">
           <div className="flex space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/akrm2003"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-100 dark:bg-gray-800 p-4 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-all transform hover:scale-110"
@@ -217,7 +217,7 @@ function App() {
               <Github className="w-8 h-8" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/%D8%A7%D9%83%D8%B1%D9%85-%D9%85%D8%AD%D9%85%D8%AF-%D8%B9%D9%84%D9%8A-63393530b/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-100 dark:bg-gray-800 p-4 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-all transform hover:scale-110"
@@ -225,14 +225,14 @@ function App() {
               <Linkedin className="w-8 h-8" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:mhmdlyakrm5@gmail.com"
               className="bg-gray-100 dark:bg-gray-800 p-4 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-all transform hover:scale-110"
             >
               <Mail className="w-8 h-8" />
             </a>
           </div>
           <a
-            href="/path-to-your-cv.pdf"
+            href="/Akram_Sid_Ahmed_CV.pdf"
             download
             className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-3 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all transform hover:scale-105 shadow-md"
           >
