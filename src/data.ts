@@ -4,32 +4,38 @@ export const projects: Project[] = [
   {
     title: 'Minishell',
     description: 'A simple shell implementation in C',
-    category: '42'
+    category: '42',
+    link: 'https://github.com/akrm2003/minishell_save'
   },
   {
     title: 'Cub3D',
     description: '3D game using raycasting',
-    category: '42'
+    category: '42',
+    link: 'https://github.com/akrm2003/Cub3d'
   },
   {
     title: 'Philosopher',
     description: 'Solution to the dining philosophers problem',
-    category: '42'
+    category: '42',
+    link: 'https://github.com/akrm2003/philo_c'
   },
   {
     title: 'So_Long',
     description: '2D game implementation',
-    category: '42'
+    category: '42',
+    link: 'https://github.com/akrm2003/so_long'
   },
   {
     title: 'Push_Swap',
     description: 'Sorting algorithm implementation',
-    category: '42'
+    category: '42',
+    link: 'https://github.com/akrm2003/ssds'
   },
   {
     title: 'Talk to Your PDF Chatbot',
     description: 'AI-powered chatbot for PDF interaction',
-    category: 'Personal'
+    category: 'Personal',
+    link: 'https://github.com/akrm2003/42_chatbot'
   }
 ];
 
